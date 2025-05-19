@@ -1,67 +1,127 @@
 <!DOCTYPE html>
 <html lang="tr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="5;url=https://t2m.io/bahisgercegi" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bahis Gerçeği</title>
-    <style>
-      body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background-color: #ffffff;
-        color: #111;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        padding: 20px;
-        text-align: center;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bahis Gerçeği</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
 
-      .container {
-        max-width: 600px;
-        padding: 40px;
-        border: 1px solid #ddd;
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-      }
+    header {
+      background-color: #0d2c54;
+      color: white;
+      padding: 20px 30px;
+    }
 
-      h1 {
-        font-size: 28px;
-        margin-bottom: 20px;
-        color: #1a1a1a;
-      }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
 
-      p {
-        font-size: 16px;
-        color: #444;
-        margin-bottom: 30px;
-      }
+    nav {
+      background-color: #133d7a;
+      padding: 12px 30px;
+    }
 
-      .cta-button {
-        display: inline-block;
-        padding: 12px 24px;
-        background-color: #007bff;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 6px;
-        font-weight: bold;
-        transition: background-color 0.3s;
-      }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: 500;
+    }
 
-      .cta-button:hover {
-        background-color: #0056b3;
-      }
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
 
-      .note {
-        margin-top: 20px;
-        font-size: 14px;
-        color: #666;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-     
+    .main-content {
+      flex: 3;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 6px;
+    }
+
+    .main-content h2 {
+      margin-top: 0;
+      color: #0d2c54;
+    }
+
+    .sidebar {
+      flex: 1;
+      margin-left: 20px;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 6px;
+    }
+
+    .sidebar h3 {
+      color: #0d2c54;
+      margin-top: 0;
+    }
+
+    .sidebar ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #555;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bahis Gerçeği</h1>
+  </header>
+
+  <nav>
+    <a href="#">Anasayfa</a>
+    <a href="#">Psikoloji</a>
+    <a href="#">Stratejiler</a>
+    <a href="#">İstatistikler</a>
+    <a href="#">İletişim</a>
+  </nav>
+
+  <div class="container">
+    <div class="main-content">
+      <h2>Bahis Psikolojisi: Gerçek Kazananların Davranışları</h2>
+      <p>
+        Bahis alışkanlıklarının psikolojik temellerini, kazananların stratejik davranışlarını ve dikkat edilmesi gereken noktaları objektif şekilde inceledik. Bu içerik, ezber bozan tespitler ve tarafsız analizlerle hazırlandı.
+      </p>
+      <p>
+        Kazananların ortak özellikleri nedir? Sürekli kaybedenlerin yaptığı kritik hatalar nelerdir? Bu sayfada tüm detaylarıyla ele alıyoruz.
+      </p>
+    </div>
+
+    <aside class="sidebar">
+      <h3>Kategoriler</h3>
+      <ul>
+        <li>Psikolojik Tetikleyiciler</li>
+        <li>İstatistiksel Yanılgılar</li>
+        <li>Gerçek Kullanıcı Deneyimleri</li>
+        <li>Kayıp Telafisi</li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer>
+    © 2025 Bahis Gerçeği – Tüm hakları saklıdır.
+  </footer>
+
+</body>
+</html>
